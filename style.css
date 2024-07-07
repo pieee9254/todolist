@@ -1,0 +1,42 @@
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+}
+#bigBoss{
+    height: 100%;
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #EDBB99;
+    border-left: solid #AED6F1 10px;
+    border-right: solid #AED6F1 10px;
+    border-top: solid #AED6F1 10px;
+}
+#myTitle{
+    text-align: center;
+}
+#myTitle{
+    font-family: Garamond;
+}
+#newList{
+    border-top: solid #AED6F1 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #AED6F1 10px;
+    position: relative;
+    background-color: #EDBB99;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Garamond;
+}
+#newList:hover{
+    background-color: #AED6F1;
+    transition: 0.3s;
+}
+#createList{
+    display: none;
+}
