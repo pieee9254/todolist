@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="bigBoss">
-        
-        <h1 id="myTitle">TO DO LISTA</h1>
-
-        <button id="newList" onclick="addFn()">NEW TO DO LIST</button>
-
-        <div id="createList">
-            
+    <div id="bigboss">
+        <div class="form-container">
+            <div id="TopPanel">
+                <div id="pLeft"><p id="top-title">ToDo List</p></div>
+                <div id="imgRight"><img src="noteicon.png" id="noteicon"></div>
+            </div>
+            <button id="add-todo-btn">Add New Todo List</button>
+            <form id="todo-form" style="display: none;">
+                <input type="text" id="title" placeholder="Title" required><br>
+                <textarea id="description" placeholder="Description" rows="10" required></textarea><br>
+                <button type="submit" class="submit">Add Todo</button>
+            </form>
         </div>
 
-    </div>
+        <p id="yTODO">Your TODO lists</p>
 
+        <div id="todo-list">
+            
+
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
